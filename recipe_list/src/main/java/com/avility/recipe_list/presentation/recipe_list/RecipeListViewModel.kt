@@ -88,9 +88,6 @@ class RecipeListViewModel @Inject constructor(
                 )
             }
             is Resource.Loading -> {
-                recipes = emptyList()
-                recipesFiltered = recipes
-
                 _state.value = state.value.copy(
                     isLoading = true,
                     recipes = emptyList(),
