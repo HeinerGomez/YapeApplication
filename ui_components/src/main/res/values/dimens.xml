@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rounded -->
+    <dimen name="rounded_15">15dp</dimen>
+
+
+    <!-- Measures -->
+    <dimen name="measure_50">50dp</dimen>
+
+</resources>
